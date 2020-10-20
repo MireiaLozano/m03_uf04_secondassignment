@@ -30,7 +30,4 @@ public class TerminalVenta extends Sobremesa {
         super.conecta();
         System.out.println("Terminal de Venta conectado");//To change body of generated methods, choose Tools | Templates.
     }
-
-   
-    
 }
