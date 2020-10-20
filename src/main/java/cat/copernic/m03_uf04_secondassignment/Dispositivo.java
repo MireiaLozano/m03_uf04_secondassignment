@@ -45,4 +45,15 @@ public abstract class Dispositivo implements Conectable{
     public String toString() {
         return "Dispositivo{" + "nombre=" + nombre + ", descripcion=" + descripcion + ", precio=" + precio + '}';
     }   
+
+    @Override
+    public void conecta(){
+        System.out.println("Dispositivo conectado");
+    }
+
+    @Override
+    public void desconecta() {
+        System.out.println("Dispositivo desconectado");
+    }    
+    
 }
