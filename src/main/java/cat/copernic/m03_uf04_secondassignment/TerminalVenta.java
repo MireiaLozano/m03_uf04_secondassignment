@@ -18,4 +18,19 @@ public class TerminalVenta extends Sobremesa {
     public TerminalVenta(String nombre, String descripcion, double precio) {
         super(nombre, descripcion, precio);
     }
+
+    @Override
+    public void desconecta() {
+        super.desconecta();
+        System.out.println("Espere un moment, desconectando Terminal de Venta");//To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void conecta() {
+        super.conecta();
+        System.out.println("Terminal de Venta conectado");//To change body of generated methods, choose Tools | Templates.
+    }
+
+   
+    
 }
