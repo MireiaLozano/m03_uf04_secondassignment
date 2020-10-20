@@ -23,9 +23,4 @@ public class Portatil extends Mobiles {
     public void reset() {
         System.out.println("Reseteando portatil, espere un momento");
     }
-
-    
-
-   
-    
 }
