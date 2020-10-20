@@ -19,4 +19,6 @@ public abstract class Mobiles extends Dispositivo {
         super(nombre, descripcion, precio);
     }
     
+    //Creamos el metodo reset para los dispositivos mobiles
+    abstract void reset();
 }
