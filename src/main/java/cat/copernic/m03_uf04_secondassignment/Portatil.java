@@ -18,4 +18,10 @@ public class Portatil extends Mobiles {
     public Portatil(String nombre, String descripcion, double precio) {
         super(nombre, descripcion, precio);
     }
+
+    @Override
+    void reset() {
+        System.out.println("Reseteando portatil, espere un momento");
+    }
+    
 }
