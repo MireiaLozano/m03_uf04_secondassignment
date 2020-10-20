@@ -19,6 +19,7 @@ public class Tablet extends Mobiles{
         super(nombre, descripcion, precio);
     }
     
+    @Override
     public void reset(){
         System.out.println("Reseteando tablet...");
     }
