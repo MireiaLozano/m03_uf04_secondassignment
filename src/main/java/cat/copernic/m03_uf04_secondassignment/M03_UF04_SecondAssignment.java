@@ -19,6 +19,11 @@ public class M03_UF04_SecondAssignment {
         Dispositivo sobremesa2 = new TerminalVenta("NetPay Smart", "Dispositivo que en un establecimiento comercial, permite el cobro con targetas de crédito o débito", 39);
         sobremesa2.conecta();
         sobremesa2.desconecta();
+        
+        Dispositivo mobil1 = new Tablet("Samsung Galaxy Tab A", "Tablet de la Gama Samsung A, disponible en blanco y gris, con 8 pulgadas de pantalla", 116.49);
+        mobil1.conecta();
+        mobil1.desconecta();
+        mobil1.reset();
     }
     
 }
