@@ -18,5 +18,4 @@ public class TerminalVenta extends Sobremesa {
     public TerminalVenta(String nombre, String descripcion, double precio) {
         super(nombre, descripcion, precio);
     }
-    
 }
