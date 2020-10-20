@@ -20,8 +20,12 @@ public class Portatil extends Mobiles {
     }
 
     @Override
-    void reset() {
+    public void reset() {
         System.out.println("Reseteando portatil, espere un momento");
     }
+
+    
+
+   
     
 }
