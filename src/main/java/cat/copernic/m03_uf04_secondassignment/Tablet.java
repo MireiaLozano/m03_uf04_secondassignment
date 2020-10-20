@@ -18,5 +18,9 @@ public class Tablet extends Mobiles{
     public Tablet(String nombre, String descripcion, double precio) {
         super(nombre, descripcion, precio);
     }
+    
+    public void reset(){
+        System.out.println("Reseteando tablet...");
+    }
 
 }
