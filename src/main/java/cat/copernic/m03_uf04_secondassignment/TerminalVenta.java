@@ -22,7 +22,7 @@ public class TerminalVenta extends Sobremesa {
     @Override
     public void desconecta() {
         super.desconecta();
-        System.out.println("Espere un moment, desconectando Terminal de Venta");//To change body of generated methods, choose Tools | Templates.
+        System.out.println("Desconectando Terminal de Venta");//To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
