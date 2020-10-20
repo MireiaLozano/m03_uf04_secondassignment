@@ -12,7 +12,13 @@ package cat.copernic.m03_uf04_secondassignment;
 public class M03_UF04_SecondAssignment {
     
     public static void main(String[] args) {
-        System.out.println("Hi");
+        Dispositivo sobremesa1 = new Ordenador("Lenovo", "Ordenador sobremesa con pantalla negra y torre de color negro", 1.200 );
+        sobremesa1.conecta();
+        sobremesa1.desconecta();
+       
+        Dispositivo sobremesa2 = new TerminalVenta("NetPay Smart", "Dispositivo que en un establecimiento comercial, permite el cobro con targetas de crédito o débito", 39);
+        sobremesa2.conecta();
+        sobremesa2.desconecta();
     }
     
 }
