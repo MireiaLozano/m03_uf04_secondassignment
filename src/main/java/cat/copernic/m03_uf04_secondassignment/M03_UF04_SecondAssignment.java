@@ -30,5 +30,4 @@ public class M03_UF04_SecondAssignment {
         mobil2.desconecta();
         mobil2.reset();
     }
-    
 }
