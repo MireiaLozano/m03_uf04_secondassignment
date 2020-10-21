@@ -30,7 +30,7 @@ public class M03_UF04_SecondAssignment {
         
         Mobiles mobil2 = new Portatil("HP", "Portatil HP mini, negro y plateado con teclado con iluminacion", 450);
         mobil2.conecta();
-         System.out.println(mobil2);
+        System.out.println(mobil2);
         mobil2.desconecta();
         mobil2.reset();
     }
