@@ -11,6 +11,8 @@ package cat.copernic.m03_uf04_secondassignment.exercicilliure;
  * 
  * Producte que volem comprar
  * 
+ * precio, descripcion, nombre, id
+ * 
  */
 public class Item {
     
