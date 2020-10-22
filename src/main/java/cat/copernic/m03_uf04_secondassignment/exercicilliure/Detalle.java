@@ -26,20 +26,20 @@ public class Detalle {
         this.cantidad = cantidad;
     }
     
-    
     //Getters
     public int getIdDetalle() {
         return idDetalle;
     }
 
-    public String getItem() {
+    public Item getItem() {
         return Item;
     }
 
+    //Getters
     public int getCantidad() {
         return cantidad;
     }
-    
+
     //toString
     @Override
     public String toString() {
