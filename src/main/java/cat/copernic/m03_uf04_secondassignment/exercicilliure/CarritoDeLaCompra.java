@@ -26,6 +26,9 @@ import java.util.ArrayList;
  * 
  * Fecha limite entrega Domingo 25 a las 12 de la noche.
  * 
+ * 
+ * No olvides implementar y verificar checkout()
+ * 
  */
 public class CarritoDeLaCompra implements Finalizable {
     
