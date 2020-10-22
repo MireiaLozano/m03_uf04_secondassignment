@@ -8,6 +8,9 @@ package cat.copernic.m03_uf04_secondassignment.exercicilliure;
 /**
  *
  * @author pep
+ * 
+ * id, cantidad, Item 
+ * 
  */
 public class Detalle {
     

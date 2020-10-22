@@ -13,6 +13,9 @@ package cat.copernic.m03_uf04_secondassignment.exercicilliure;
  * 
  * precio, descripcion, nombre, id
  * 
+ * Se recomienda extender esta clase 
+ * 
+ * 
  */
 public class Item {
     

@@ -10,6 +10,22 @@ import java.util.ArrayList;
 /**
  *
  * @author pep
+ * 
+ * Implementa una ejercicio original con:
+ * 
+ * Herencia
+ * 
+ * Polimorfismo
+ * 
+ * Intefaces
+ * 
+ * Propiedades, etc.
+ * 
+ * 
+ * Opcionalmente, usa este ejemplo para tu desarrollo.
+ * 
+ * Fecha limite entrega Domingo 25 a las 12 de la noche.
+ * 
  */
 public class CarritoDeLaCompra implements Finalizable {
     
