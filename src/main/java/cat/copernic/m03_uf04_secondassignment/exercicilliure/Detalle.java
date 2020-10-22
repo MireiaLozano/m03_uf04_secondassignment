@@ -16,15 +16,16 @@ public class Detalle {
     
     //Propiedades
     private int idDetalle;
-    private String Item;
+    private Item Item;
     private int cantidad;
     
     //Constructor
-    public Detalle(int idDetalle, String Item, int cantidad) {
+    public Detalle(int idDetalle, Item Item, int cantidad) {
         this.idDetalle = idDetalle;
         this.Item = Item;
         this.cantidad = cantidad;
     }
+    
     
     //Getters
     public int getIdDetalle() {
