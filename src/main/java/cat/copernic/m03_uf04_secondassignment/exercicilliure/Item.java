@@ -17,7 +17,7 @@ package cat.copernic.m03_uf04_secondassignment.exercicilliure;
  * 
  * 
  */
-public abstract class Item extends CarritoDeLaCompra{
+public abstract class Item {
     //Propiedades
     private int idItem;
     private String nombre;
