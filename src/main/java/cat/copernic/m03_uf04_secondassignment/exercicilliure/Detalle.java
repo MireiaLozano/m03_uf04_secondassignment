@@ -14,4 +14,35 @@ package cat.copernic.m03_uf04_secondassignment.exercicilliure;
  */
 public class Detalle {
     
+    //Propiedades
+    private int idDetalle;
+    private String Item;
+    private int cantidad;
+    
+    //Constructor
+    public Detalle(int idDetalle, String Item, int cantidad) {
+        this.idDetalle = idDetalle;
+        this.Item = Item;
+        this.cantidad = cantidad;
+    }
+    
+    //Getters
+    public int getIdDetalle() {
+        return idDetalle;
+    }
+
+    public String getItem() {
+        return Item;
+    }
+
+    public int getCantidad() {
+        return cantidad;
+    }
+    
+    //toString
+    @Override
+    public String toString() {
+        return "Detalle{" + "idDetalle=" + idDetalle + ", Item=" + Item + ", cantidad=" + cantidad + '}';
+    }
+    
 }
