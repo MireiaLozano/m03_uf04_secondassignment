@@ -41,9 +41,10 @@ public class Detalle {
     
   
     //toString
+
     @Override
     public String toString() {
-        return "Detalle{" + "idDetalle=" + idDetalle + ", Item=" + Item + ", cantidad=" + cantidad + '}';
+        return "Detalle{" + "idDetalle=" + idDetalle + ", cantidad=" + cantidad + ", Item=" + Item + '}';
     }
-    
+   
 }
