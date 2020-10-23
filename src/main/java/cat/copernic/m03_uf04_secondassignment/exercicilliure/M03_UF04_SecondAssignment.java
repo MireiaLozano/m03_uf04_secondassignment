@@ -16,6 +16,11 @@ import java.util.Scanner;
 public class M03_UF04_SecondAssignment {
     
     public static void main(String[] args) {
+        
+        CarritoDeLaCompra carrito1 = new CarritoDeLaCompra();
+        carrito1.añade(new Detalle(01, 15, new Alimentos(01, "Tomate", "Tomate Solís", 1.45)));
+        System.out.println(carrito1);
+        
     }
 }
     
