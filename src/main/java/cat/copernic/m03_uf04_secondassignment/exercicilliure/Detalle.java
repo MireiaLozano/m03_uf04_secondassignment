@@ -16,14 +16,14 @@ public class Detalle {
     
     //Propiedades
     private int idDetalle;
-    private Item Item;
     private int cantidad;
+    private Item Item;
     
     //Constructor
-    public Detalle(int idDetalle, Item Item, int cantidad) {
+    public Detalle(int idDetalle, int cantidad, Item Item) {
         this.idDetalle = idDetalle;
-        this.Item = Item;
         this.cantidad = cantidad;
+        this.Item = Item;
     }
     
     //Getters
@@ -31,15 +31,15 @@ public class Detalle {
         return idDetalle;
     }
 
-    public Item getItem() {
-        return Item;
-    }
-
-    //Getters
     public int getCantidad() {
         return cantidad;
     }
 
+    public Item getItem() {
+        return Item;
+    }
+    
+  
     //toString
     @Override
     public String toString() {
