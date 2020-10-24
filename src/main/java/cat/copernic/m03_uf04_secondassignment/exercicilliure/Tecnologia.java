@@ -14,10 +14,12 @@ import java.util.Scanner;
  * @author User
  */
 public class Tecnologia extends Item{
+    private String nombreItem;
     private String tipoTecnologia;
 
-    public Tecnologia(String tipoTecnologia, int idItem, String nombre, String descripcion, double precio) {
+    public Tecnologia(String nombreItem, String tipoTecnologia, int idItem, String nombre, String descripcion, double precio) {
         super(idItem, nombre, descripcion, precio);
+        this.nombreItem = nombreItem;
         this.tipoTecnologia = tipoTecnologia;
     }
 }
