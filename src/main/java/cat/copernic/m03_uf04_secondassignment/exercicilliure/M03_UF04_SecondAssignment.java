@@ -39,6 +39,7 @@ public class M03_UF04_SecondAssignment {
            
            System.out.println("Desea eliminar algún elemento de su carrito? ");
            carritoCompra.elimina(item1);
+           carritoCompra.elimina(item3);
            System.out.println("");
            System.out.println("De acuerdo, { " +item1+ " } eliminado");
            System.out.println("");
