@@ -25,7 +25,15 @@ public class M03_UF04_SecondAssignment {
            carritoCompra.añade(item1);
            Detalle item2 = new Detalle(02, 02, new CuidadoPersonal("Perfumeria", 02, "Colonia mujer", "Colonia de mujer marca Playboy", 6.57));
            carritoCompra.añade(item2);
+        
+           System.out.println("Desea añadir algún elemento más en su carrito? ");
+           totalCompra=carritoCompra.checkout();
            
+           System.out.println("Desea eliminar algún elemento de su carrito? ");
+           carritoCompra.elimina(item1);
+           totalCompra=carritoCompra.checkout();
+           
+           System.out.println("De acuerdo, su precio total de la compra es: " + totalCompra);
         
     }
 }
