@@ -69,6 +69,6 @@ public abstract class Item {
     //toString
     @Override
     public String toString() {
-        return "Item = " + "idItem = " + idItem + ", nombre = " + nombre + ", descripcion = " + descripcion + ", precio = " + precio;
+        return "Item = " + "idItem:" + idItem + ", nombre: " + nombre + ", descripcion: " + descripcion + ", precio: " + precio;
     }
 }
