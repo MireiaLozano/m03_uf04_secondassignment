@@ -17,13 +17,14 @@ public class M03_UF04_SecondAssignment {
     
     public static void main(String[] args) {
         
-        CarritoDeLaCompra carrito1 = new CarritoDeLaCompra();
-        carrito1.añade(new Detalle(01, 15, new Alimentos(01, "Tomate", "Tomate Solís", 1.45)));
-        System.out.println(carrito1);
+        double totalCompra;
         
-        CarritoDeLaCompra carrito2 = new CarritoDeLaCompra();
-        carrito2.añade(new Detalle(02, 02, new CuidadoPersonal("Perfumeria", 02, "Colonia mujer", "Colonia de mujer marca Playboy", 6.57)));
-        System.out.println(carrito2);
+        CarritoDeLaCompra carritoCompra = new CarritoDeLaCompra();
+        
+           Detalle item1 =new Detalle(01, 15, new Alimentos(01, "Tomate", "Tomate Solís", 1.45));
+                 
+           Detalle item2 = new Detalle(02, 02, new CuidadoPersonal("Perfumeria", 02, "Colonia mujer", "Colonia de mujer marca Playboy", 6.57));
+       
         
     }
 }
