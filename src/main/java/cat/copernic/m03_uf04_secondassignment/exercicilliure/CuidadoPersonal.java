@@ -14,10 +14,14 @@ import java.util.Scanner;
  * @author User
  */
 public class CuidadoPersonal extends Item{
+        private String nombreItem;
         private String tipoItem;
 
-    public CuidadoPersonal(String tipoItem, int idItem, String nombre, String descripcion, double precio) {
+    public CuidadoPersonal(String nombreItem, String tipoItem, int idItem, String nombre, String descripcion, double precio) {
         super(idItem, nombre, descripcion, precio);
+        this.nombreItem = nombreItem;
         this.tipoItem = tipoItem;
     }
+
+  
 }

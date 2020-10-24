@@ -14,12 +14,12 @@ import java.util.Scanner;
  * @author User
  */
 public class Bebidas extends Item {
+    private String nombreItem;
     private String tipoBebida;
 
-    public Bebidas(String tipoBebida, int idItem, String nombre, String descripcion, double precio) {
+    public Bebidas(String nombreItem, String tipoBebida, int idItem, String nombre, String descripcion, double precio) {
         super(idItem, nombre, descripcion, precio);
+        this.nombreItem = nombreItem;
         this.tipoBebida = tipoBebida;
-    }
-    
-    
+    }    
 }

@@ -14,9 +14,10 @@ import java.util.Scanner;
  * @author User
  */
 public class Frescos extends Item {
+    private String nombreItem;
 
-    public Frescos(int idItem, String nombre, String descripcion, double precio) {
+    public Frescos(String nombreItem, int idItem, String nombre, String descripcion, double precio) {
         super(idItem, nombre, descripcion, precio);
-    } 
- 
+        this.nombreItem = nombreItem;
+    }
 }

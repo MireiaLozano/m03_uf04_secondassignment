@@ -41,7 +41,7 @@ public class M03_UF04_SecondAssignment {
            carritoCompra.elimina(item1);
            carritoCompra.elimina(item3);
            System.out.println("");
-           System.out.println("De acuerdo, { " +item1+ " } eliminado");
+           System.out.println("De acuerdo, { " +item1+ " y " + item3 + " } eliminado");
            System.out.println("");
            totalCompra=carritoCompra.checkout();
           

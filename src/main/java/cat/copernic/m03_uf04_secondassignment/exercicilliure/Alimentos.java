@@ -14,9 +14,10 @@ import java.util.Scanner;
  * @author User
  */
 public class Alimentos extends Item{
-    
-    public Alimentos(int idItem, String nombre, String descripcion, double precio) {
+    private String nombreItem;
+
+    public Alimentos(String nombreItem, int idItem, String nombre, String descripcion, double precio) {
         super(idItem, nombre, descripcion, precio);
-    }
-        
+        this.nombreItem = nombreItem;
+    }    
 }
