@@ -31,13 +31,18 @@ public class M03_UF04_SecondAssignment {
            carritoCompra.añade(item4);
            
            totalCompra=carritoCompra.checkout();
+           System.out.println("");
            
            System.out.println("Desea eliminar algún elemento de su carrito? ");
            carritoCompra.elimina(item1);
+           System.out.println("");
            System.out.println("De acuerdo, { " +item1+ " } eliminado");
+           System.out.println("");
            totalCompra=carritoCompra.checkout();
-           
+          
+           System.out.println("");
            System.out.println("De acuerdo, el precio total de su compra es de: " + totalCompra + "€");
+          
         
     }
 }
