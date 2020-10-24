@@ -44,7 +44,7 @@ public class Detalle {
 
     @Override
     public String toString() {
-        return "Detalle = " + "idDetalle=" + idDetalle + ", cantidad=" + cantidad + ", Item=" + Item;
+        return "Detalle = " + "idDetalle: " + idDetalle + ", cantidad: " + cantidad + ", Item: " + Item;
     }
    
 }
